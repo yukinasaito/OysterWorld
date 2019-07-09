@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OysterWorldApplication {
+public class OysterworldApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OysterWorldApplication.class, args);
+		SpringApplication.run(OysterworldApplication.class, args);
 	}
 }
