@@ -523,12 +523,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-left: 10px !important;
   padding-right: 10px !important;
 }
-#gtco-footer .gtco-copyright {
-  background: #E6E6E6;
-  padding: 20px 0;
-  float: left;
-  width: 100%;
-}
+
 #gtco-footer .gtco-copyright p {
   font-family: "Montserrat", sans-serif;
 }
