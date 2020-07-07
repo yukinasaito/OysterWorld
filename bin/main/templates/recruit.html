@@ -1,0 +1,40 @@
+<div layout:decorator="layout">
+	<th:block layout:fragment="layout-content">
+		<link rel="stylesheet" media="(min-width: 826px)" th:href="@{/css/recruitPc.css}">
+		<link rel="stylesheet" media="(max-width: 826px)" th:href="@{/css/recruitMobile.css}">
+
+		<div class="gtco-section gtco-services">
+			<div class="gtco-container main">
+				<div class="row gtco-heading">
+					<div class="col-xs-12 text-left">
+						<h2>採用情報</h2>
+						<img src="images/recruitImg.jpg" alt="" class="recruit-img">
+					</div>
+				</div>
+				<div class="wrap">
+					<div class="jumbotron">
+						<div class="display-edit">
+							<h3 class="display-4">未経験者積極採用</h3>
+						</div>
+						<hr class="my-4">
+						<p class="text-edit">未経験から着実に成長できる</p>
+						<p class="second-text-edit">環境が整っています。</p>
+						<div class="inexperienced-display">
+						<a th:href="@{/inexperienced}"><button class="button-one"><span>未経験者採用情報</span></button></a>
+						</div>
+					</div>
+					<div class="jumbotron">
+						<h3 class="display-4">今までの経験＋新しい挑戦もできる</h3>
+						<hr class="my-4">
+						<p class="text-edit-two">ゲーム開発・銀行系システム開発など</p>
+						<p class="text-edit-two">あなたの経験を活かしてみませんか。</p>
+						<div class="experienced-display">
+						<a th:href="@{/experienced}">
+						<button class="button-two"><span>経験者採用情報</span></button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</th:block>
+</div>
