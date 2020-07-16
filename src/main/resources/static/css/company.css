@@ -1,0 +1,32 @@
+.kaisha {
+width: 100%;
+margin-bottom:50px;
+}
+
+.kaisha th,
+.kaisha td {
+border: 1px solid #ccc;
+padding: 20px;
+}
+
+.kaisha th {
+font-weight: bold;
+background-color: #edf0f3;
+}
+
+.kaisha tr {
+background-color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+  .last td:last-child {
+    border-bottom: solid 1px #ccc;
+    width: 100%;
+  }
+  .kaisha th,
+  .kaisha td {
+　　border-bottom: none;
+    display: block;
+    width: 100%;
+  }
+}

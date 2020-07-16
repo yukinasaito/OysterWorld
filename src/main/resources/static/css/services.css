@@ -1,0 +1,56 @@
+.gtco-services .feature-left {
+  float: left;
+  width: 100%;
+  margin-bottom: 50px !important;
+}
+.gtco-services .feature-left p {
+  margin-bottom: 10px !important;
+}
+
+.gto-features {
+  border-top: 1px solid #e6e6e6;
+}
+
+.feature-left {
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .feature-left {
+    margin-bottom: 20px;
+  }
+}
+
+.feature-left h6 {
+  font-size:19px;
+  margin-top:25px;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  color: #494949;
+  background: transparent;
+  border-left: solid 5px #7db4e6;
+}
+
+.feature-left > .icon {
+  float: left;
+  font-size: 34px;
+  color: #cccccc;
+}
+.feature-left > .copy {
+  padding-left: 30px;
+}
+.feature-left > .copy h3 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.feature-left > .copy p {
+  font-size: 12px !important;
+  line-height: 26px;
+}
+.feature-left > .copy p:last-child {
+  margin-bottom: 0;
+}
+.feature-left > .icon, .feature-left > .copy {
+  display: table-cell;
+}
